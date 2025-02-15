@@ -12,6 +12,7 @@ def create_project_structure(base_path='.'):
         'data/raw',
         'data/Feature_Store',
         'notebooks',
+        'src/data',
         'src/features',
         'src/training',
         'src/visualization',
@@ -38,6 +39,7 @@ def create_project_structure(base_path='.'):
     files = [
         '.env', 
         'src/__init__.py',
+        'src/data/__init__.py',
         'src/features/__init__.py',
         'src/training/__init__.py',
         'src/visualization/__init__.py',
@@ -46,7 +48,8 @@ def create_project_structure(base_path='.'):
         'src/logging/__init__.py',
         'src/config/__init__.py',
         'src/exceptions/__init__.py',
-        'tests/__init__.py'    
+        'tests/__init__.py' ,
+        'Dockerfile'   
     ]
 
     for file in files:

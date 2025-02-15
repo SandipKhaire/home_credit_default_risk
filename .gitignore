@@ -24,3 +24,7 @@ venv.bak/
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+src.egg-info/
+
+steps.md
