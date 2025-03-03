@@ -1,0 +1,18 @@
+
+TARGET_COL: 'TARGET'
+RAW_DATA_PATH: 'data/raw/'
+APP_TRAIN_FILE_NAME: 'app_train.csv'
+APP_TEST_FILE_NAME: 'app_test.csv'
+
+FEATURE_STORE_PATH: 'data/Feature_Store'
+
+APP_TRAIN_FEATURES_FILE_NAME : 'app_train.parquet'
+APP_TEST_FEATURES_FILE_NAME : 'app_test.parquet'
+
+
+
+
+
+
+
+

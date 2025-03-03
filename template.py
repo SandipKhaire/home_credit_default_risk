@@ -24,7 +24,8 @@ def create_project_structure(base_path='.'):
         'tests',
         'models',
         'reports',
-        'logs' ]
+        'logs',
+         'utils' ]
     
     # Create the folders (only if they don't exist)
     for folder in folders:
@@ -49,6 +50,7 @@ def create_project_structure(base_path='.'):
         'src/config/__init__.py',
         'src/exceptions/__init__.py',
         'tests/__init__.py' ,
+        'utils/__init__.py',
         'Dockerfile'   
     ]
 
