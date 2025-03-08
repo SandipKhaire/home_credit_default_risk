@@ -54,6 +54,8 @@ async def predict(request: PredictionRequest):
     try:
         input_data = pd.DataFrame([request.model_dump()])
         input_data = preprocessing(input_data)
+        print(input_data)
+        print(input_data.dtypes)
 
         response.model_features = input_data.to_dict(orient="records")[0]
         logger.info(f"Preprocessed input data for request {request_id}")

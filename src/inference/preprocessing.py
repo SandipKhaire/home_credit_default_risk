@@ -23,6 +23,7 @@ def preprocessing(df:pd.DataFrame)->pd.DataFrame:
     df['AMT_CREDIT_AMT_GOODS_PRICE_ratio'] = compute_ratio_columnwise(df, 'AMT_CREDIT', 'AMT_GOODS_PRICE')
     df[categorical_features] = df[categorical_features].astype('category')
     df = df[selected_features]
+    df.replace({None:np.nan},inplace=True)
     return df
 
 
