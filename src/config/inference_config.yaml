@@ -1,0 +1,16 @@
+
+selected_features:
+  - EXT_SOURCE_3
+  - EXT_SOURCE_2
+  - EXT_SOURCE_1
+  - AMT_CREDIT_AMT_GOODS_PRICE_ratio
+  - employment_years
+  - ORGANIZATION_TYPE
+  - NAME_EDUCATION_TYPE
+  - Client_Age
+
+categorical_features:
+  - ORGANIZATION_TYPE
+  - NAME_EDUCATION_TYPE
+
+threshold: 0.49781528
